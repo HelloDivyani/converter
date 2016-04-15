@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#0097A7"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/timeLayout"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time converter"
+        android:textAllCaps="true"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_weight="0"
+        android:layout_margin="14dp"
+        android:src="@drawable/time"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/enter_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Time"
+            android:textColor="#FFFF"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+
+            android:inputType="numberDecimal" />
+        <Spinner
+            android:id="@+id/time1_spinner"
+            android:layout_width="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/enter_time1"
+            android:layout_height="wrap_content"></Spinner>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:background="#E1F5FE"
+        android:onClick="ClickConvert"
+        />
+    <TextView
+        android:id="@+id/data"
+        android:textSize="20sp"
+        android:textColor="#FFFF"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new data"
+        />
+
+
+
+</LinearLayout>
+    </ScrollView>

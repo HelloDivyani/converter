@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pressureQuantites">
+        <item>Pascal(Pa)</item>
+        <item>Atmosphere(atm)</item>
+        <item>Bar</item>
+        <item>Torr</item>
+
+
+    </string-array>
+    <string-array name="temperatureQuantites">
+        <item>Degree Fahrenheit(F)</item>
+        <item>Degree Celsius(C)</item>
+        <item>Degree Kelvin(K)</item>
+    </string-array>
+    <string-array name="timeQuantites">
+        <item>days</item>
+        <item>hours</item>
+        <item>minutes</item>
+        <item>seconds</item>
+    </string-array>
+    <string-array name="lengthQuantites">
+        <item>Centimeters</item>
+        <item>Inches</item>
+        <item>Feet</item>
+        <item>Yards</item>
+        <item>Meters</item>
+        <item>KiloMeters</item>
+        <item>Miles</item>
+        <item>MilliMeters</item>
+    </string-array>
+    <string-array name="energyQuantites">
+        <item>Calories</item>
+        <item>ElectronVolts</item>
+        <item>Ergs</item>
+        <item>Joules</item>
+        <item>KiloWattHour</item>
+
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

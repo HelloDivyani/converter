@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#0097A7"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0097A7"
+    android:id="@+id/temperatureLayout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temperature converter"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="#FFFF"
+        android:textSize="24sp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_weight="0"
+        android:layout_margin="14dp"
+        android:src="@drawable/temp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/enter_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF"
+
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:hint="Enter Temperaure"
+            android:layout_margin="20dp"
+
+            android:inputType="numberDecimal" />
+        <Spinner
+            android:id="@+id/temperature_spinner"
+            android:layout_width="0dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/enter_temperature"
+            android:layout_height="wrap_content"></Spinner>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+
+        android:background="#E1F5FE"
+        android:onClick="ClickConvert"
+        />
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new data"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:textSize="22sp"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>
+    </ScrollView>

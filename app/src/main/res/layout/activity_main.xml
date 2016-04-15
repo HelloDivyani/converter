@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#0097A7"
+    tools:context="com.example.android.easyconverting.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Welcome to Easy Converting "
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        android:textColor="#FFFF"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:text="Enjoy converting with different quantites"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFF"
+        android:text="Select the quantity to be converted"/>
+
+    <Button
+        android:id="@+id/PressureConversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+
+        android:background="#B2EBF2"
+
+        android:text="Pressure"/>
+    <Button
+        android:id="@+id/TemperatureConversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2EBF2"
+        android:layout_margin="24dp"
+
+        android:text="temperature"/>
+    <Button
+        android:id="@+id/lenAreaVolConversion"
+        android:layout_width="match_parent"
+        android:background="#B2EBF2"
+        android:layout_margin="24dp"
+
+        android:layout_height="wrap_content"
+        android:text="distance"/>
+    <Button
+        android:id="@+id/timeConversion"
+        android:layout_width="match_parent"
+        android:background="#B2EBF2"
+        android:layout_margin="24dp"
+        android:layout_height="wrap_content"
+
+
+        android:text="Time"
+        />
+    <Button
+        android:id="@+id/rectPolConversion"
+        android:layout_width="match_parent"
+        android:background="#B2EBF2"
+        android:layout_margin="24dp"
+        android:layout_height="wrap_content"
+
+        android:text="Energy"/>
+
+</LinearLayout>
+</ScrollView>
+
+
